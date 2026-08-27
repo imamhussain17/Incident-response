@@ -97,7 +97,7 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Root shell access](16_shell.png)
 - ![Network config from shell](17_ip_addr.png)
 - ![Filesystem enumeration](18_ls_listing.png)
-- ![User accounts in /etc/passwd](19_passwd.png)
+- ![User accounts in /etc/passwd](19_password.png)
 
 ### Figures: Network Detection Evidence
 - ![Wireshark packet capture](20_wireshark.png)
