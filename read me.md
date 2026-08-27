@@ -78,8 +78,8 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Metasploitable IP configuration](01_metasploitable_ip.png)
 - ![Ping connectivity test](02_target_ping.png)
 - ![Kali IP configuration](03_Attacker_ip.png)
-- ![Full Nmap service scan](04_nmap_full.png)
-- ![Nmap FTP service version](05_nmap_ftp.png)
+- ![Full Nmap service scan](04_nmap_sv_scan.png)
+- ![Nmap FTP service version](05_nmap_21_ftp_scan.png)
 
 ### Figures: Initial Access & Exploitation
 - ![Metasploit console startup](./screenshots/06_msfconsole.png)
