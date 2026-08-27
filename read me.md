@@ -88,12 +88,12 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Exploit options](09_show_options.png)
 - ![Set RHOSTS target](10_set_rhosts.png)
 - ![Exploit configuration](12_show_options2.png)
-- ![Set LHOST attacker](11_set_lhost.png)
+- ![Set LHOST attacker](11_set_lhosts.png)
 - ![Run exploit and gain session](13_exploit_sucess.png)
 
 ### Figures: Execution & Privilege Verification
 - ![Meterpreter session interaction](14_sessions.png)
-- ![System info enumeration](15_sysinfo.png)
+- ![System info enumeration](15_getuid-sysinfo.png)
 - ![Root shell access](16_shell.png)
 - ![Network config from shell](17_ip_addr.png)
 - ![Filesystem enumeration](18_ls_listing.png)
