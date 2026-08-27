@@ -82,12 +82,12 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Nmap FTP service version](05_nmap_21_ftp_scan.png)
 
 ### Figures: Initial Access & Exploitation
-- ![Metasploit console startup](./screenshots/06_msfconsole.png)
-- ![Search vsftpd exploit](./screenshots/07_search_vsftpd.png)
-- ![Select exploit module](./screenshots/08_use_vsftpd.png)
-- ![Exploit options](./screenshots/09_show_options.png)
-- ![Set RHOSTS target](./screenshots/10_set_rhosts.png)
-- ![Exploit configuration](./screenshots/11_exploit_config.png)
+- ![Metasploit console startup](06_msf_startup.png)
+- ![Search vsftpd exploit](07_msfconsole_search_vsftpd.png)
+- ![Select exploit module](08_use_vsftpd.png)
+- ![Exploit options](09_show_options.png)
+- ![Set RHOSTS target](10_set_rhosts.png)
+- ![Exploit configuration](11_exploit_config.png)
 - ![Set LHOST attacker](./screenshots/12_set_lhost.png)
 - ![Run exploit and gain session](./screenshots/13_run_exploit.png)
 
