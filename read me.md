@@ -78,7 +78,7 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Metasploitable IP configuration](01_metasploitable_ip.png)
 - ![Ping connectivity test](02_target_ping.png)
 - ![Kali IP configuration](03_Attacker_ip.png)
-- ![Full Nmap service scan](04_nmap_sv_scan.png)
+- ![Full Nmap service scan](04_nmap-sv_scan.png)
 - ![Nmap FTP service version](05_nmap_21_ftp_scan.png)
 
 ### Figures: Initial Access & Exploitation
@@ -88,7 +88,7 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Exploit options](09_show_options.png)
 - ![Set RHOSTS target](10_set_rhosts.png)
 - ![Exploit configuration](11_exploit_config.png)
-- ![Set LHOST attacker](./screenshots/12_set_lhost.png)
+- ![Set LHOST attacker](11_set_lhost.png)
 - ![Run exploit and gain session](./screenshots/13_run_exploit.png)
 
 ### Figures: Execution & Privilege Verification
