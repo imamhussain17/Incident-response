@@ -75,7 +75,7 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 ## 8. Appendix
 
 ### Figures: Reconnaissance
-- ![Metasploitable IP configuration](./screenshots/01_metasploitable_ip.png)
+- ![Metasploitable IP configuration](01_metasploitable_ip.png)
 - ![Ping connectivity test](./screenshots/02_ping_target.png)
 - ![Kali IP configuration](./screenshots/03_kali_ip.png)
 - ![Full Nmap service scan](./screenshots/04_nmap_full.png)
