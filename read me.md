@@ -87,20 +87,20 @@ Wireshark captured TCP traffic between attacker (192.168.15.137) and victim (192
 - ![Select exploit module](08_use_vsftpd.png)
 - ![Exploit options](09_show_options.png)
 - ![Set RHOSTS target](10_set_rhosts.png)
-- ![Exploit configuration](11_exploit_config.png)
+- ![Exploit configuration](12_show_options2.png)
 - ![Set LHOST attacker](11_set_lhost.png)
-- ![Run exploit and gain session](./screenshots/13_run_exploit.png)
+- ![Run exploit and gain session](13_exploit_sucess.png)
 
 ### Figures: Execution & Privilege Verification
-- ![Meterpreter session interaction](./screenshots/14_sessions.png)
-- ![System info enumeration](./screenshots/15_sysinfo.png)
-- ![Root shell access](./screenshots/16_shell_root.png)
-- ![Network config from shell](./screenshots/17_ip_addr.png)
-- ![Filesystem enumeration](./screenshots/18_ls_root.png)
-- ![User accounts in /etc/passwd](./screenshots/19_passwd.png)
+- ![Meterpreter session interaction](14_sessions.png)
+- ![System info enumeration](15_sysinfo.png)
+- ![Root shell access](16_shell.png)
+- ![Network config from shell](17_ip_addr.png)
+- ![Filesystem enumeration](18_ls_listing.png)
+- ![User accounts in /etc/passwd](19_passwd.png)
 
 ### Figures: Network Detection Evidence
-- ![Wireshark packet capture](./screenshots/20_wireshark.png)
+- ![Wireshark packet capture](20_wireshark.png)
 
 ---
 
