@@ -561,49 +561,98 @@ The penetration-testing activities can be mapped to relevant MITRE ATT&CK techni
 
 ---
 
-# 19. Evidence Index
+# 19. Evidence & Screenshots
 
-## Reconnaissance & Enumeration
+## 19.1 Reconnaissance & Enumeration
 
-| Evidence                   | Description                        |
-| -------------------------- | ---------------------------------- |
-| `01_metasploitable_ip.png` | Metasploitable 2 IP configuration  |
-| `02_target_ping.png`       | Connectivity verification          |
-| `03_Attacker_ip.png`       | Kali Linux IP configuration        |
-| `04_nmap-sv_scan.png`      | Full Nmap service/version scan     |
-| `05_nmap_21_ftp_scan.png`  | FTP service/version identification |
+### 01 — Metasploitable 2 IP Configuration
 
-## Vulnerability Identification & Exploitation
+![Metasploitable 2 IP Configuration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/01_metasploitable_ip.png)
 
-| Evidence                          | Description                  |
-| --------------------------------- | ---------------------------- |
-| `06_msf_startup.png`              | Metasploit startup           |
-| `07_msfconsole_search_vsftpd.png` | Vulnerability/exploit search |
-| `08_use_vsftpd.png`               | Exploit module selection     |
-| `09_show_options.png`             | Exploit configuration        |
-| `10_set_rhosts.png`               | Target configuration         |
-| `11_set_lhosts.png`               | Attacker configuration       |
-| `12_show_options2.png`            | Final exploit configuration  |
-| `13_exploit_sucess.png`           | Successful exploitation      |
+### 02 — Target Connectivity Test
 
-## Post-Exploitation
+![Target Connectivity Test](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/02_target_ping.png)
 
-| Evidence                | Description                       |
-| ----------------------- | --------------------------------- |
-| `14_sessions.png`       | Meterpreter session               |
-| `15_getuid-sysinfo.png` | System and privilege verification |
-| `16_shell.png`          | Root shell                        |
-| `17_ip_addr.png`        | Network configuration             |
-| `18_ls_listing.png`     | Filesystem enumeration            |
-| `19_password.png`       | User account enumeration          |
+### 03 — Kali Linux IP Configuration
 
-## Network Evidence
+![Kali Linux IP Configuration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/03_Attacker_ip.png)
 
-| Evidence           | Description              |
-| ------------------ | ------------------------ |
-| `20_wireshark.png` | Network traffic analysis |
+### 04 — Nmap Service and Version Scan
 
----
+![Nmap Service and Version Scan](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/04_nmap-sv_scan.png)
+
+### 05 — FTP Service Enumeration
+
+![FTP Service Enumeration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/05_nmap_21_ftp_scan.png)
+
+
+## 19.2 Vulnerability Identification & Exploitation
+
+### 06 — Metasploit Framework Startup
+
+![Metasploit Framework Startup](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/06_msf_startup.png)
+
+### 07 — VSFTPD Exploit Search
+
+![VSFTPD Exploit Search](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/07_msfconsole_search_vsftpd.png)
+
+### 08 — VSFTPD Exploit Module Selection
+
+![VSFTPD Exploit Module Selection](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/08_use_vsftpd.png)
+
+### 09 — Exploit Configuration Options
+
+![Exploit Configuration Options](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/09_show_options.png)
+
+### 10 — RHOSTS Configuration
+
+![RHOSTS Configuration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/10_set_rhosts.png)
+
+### 11 — LHOST Configuration
+
+![LHOST Configuration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/11_set_lhosts.png)
+
+### 12 — Final Exploit Configuration
+
+![Final Exploit Configuration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/12_show_options2.png)
+
+### 13 — Successful Exploitation
+
+![Successful Exploitation](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/13_exploit_sucess.png)
+
+
+## 19.3 Post-Exploitation & Privilege Verification
+
+### 14 — Meterpreter Session
+
+![Meterpreter Session](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/14_sessions.png)
+
+### 15 — System and Privilege Verification
+
+![System and Privilege Verification](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/15_getuid-sysinfo.png)
+
+### 16 — Root Shell Access
+
+![Root Shell Access](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/16_shell.png)
+
+### 17 — Network Configuration
+
+![Network Configuration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/17_ip_addr.png)
+
+### 18 — Filesystem Enumeration
+
+![Filesystem Enumeration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/18_ls_listing.png)
+
+### 19 — User Account Enumeration
+
+![User Account Enumeration](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/19_password.png)
+
+
+## 19.4 Network Traffic Analysis
+
+### 20 — Wireshark Traffic Capture
+
+![Wireshark Traffic Capture](https://raw.githubusercontent.com/imamhussain17/Incident-response/main/20_wireshark.png)
 
 # 20. Conclusion
 
